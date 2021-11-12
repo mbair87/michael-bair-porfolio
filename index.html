@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Michael Bair</title>
 </head>
+
 <body>
     <!--navigation-->
     <header>
@@ -28,28 +31,98 @@
     </header>
 
     <!--hero/jumbotron-->
-    <section class="hero">
-    </section>
+<section class= "hero">
+</section>
 
     <!--about me section-->
     <section id="about-me">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <img src="./assets/images/me.jpg" alt="" />
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magni delectus corrupti illum unde iure
+                cumque ipsam dolorem voluptatum sunt eos vero illo, vel deleniti doloremque placeat autem alias
+                temporibus!
 
+            </p>
+        </div>
     </section>
 
     <!--portfolio section-->
-    <section id="--portfolio">
+    <section id="portfolio">
+        <div class="flex-row">
+            <h2 class="section-title primary-border">
+                Portfolio
+            </h2>
+        </div>
+        <!-- first project-->
+        <div class="projects">
+            <article class="project">
+                <a href="https://mbair87.github.io/run-buddy/"><img src="./assets/images/runbuddy.jpg"
+                        alt="screenshot of Run Buddy website" /></a>
+                <div class="project">
+                    <h3 class="project">Run Buddy</h3>
+                    <p>
+                        Run Buddy project created using HTML and CSS
+                    </p>
+                </div>
+            </article>
+
+            <!-- second project-->
+            <article class="project">
+                <a href="https://mbair87.github.io/robot-gladiators/"> <img src="./assets/images/robotgladiators.jpg"
+                        alt="screenshot of robot gladiators game" /></a>
+                <div class="project">
+                    <h3 class="project">Robot Gladiators</h3>
+                    <p>
+                        Robot Gladiators project created using HTML and JavaScript
+                    </p>
+                </div>
+            </article>
+
+            <!-- third project-->
+            <article class="project">
+                <img src="./assets/images/comingsoon.jpg" alt="coming soon neon sign" />
+                <div class="project">
+                    <h3 class="project"> Coming soon</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas ab labore quaerat quas eius
+                        vero dignissimos rerum ipsa repellat vel et reprehenderit totam aspernatur tempore provident,
+                        nihil doloremque neque iste!
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
 
     </section>
 
     <!--contact-->
     <section id="contact">
+        <div class="contact-form">
+            <h3>Request Resume</h3>
+            <p>Fill out this form to request a copy of resume to be sent to you</p>
 
+            <br>
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="phone number" name="phone" id="phone" class="form-input" />
+                <button type="submit">
+                    Request Resume
+                </button>
+            </form>
+        </div>
     </section>
 
     <!--footer-->
     <footer>
-
+        &copy 2021 Michael Bair
     </footer>
-    
+
 </body>
+
 </html>
