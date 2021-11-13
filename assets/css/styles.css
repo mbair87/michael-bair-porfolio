@@ -122,13 +122,22 @@ body {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     .project {
+        display: inline-block;
         margin: 20px;
         background: var(--secondary-color);
         color: var(--primary-color);
         flex: 1;
         padding: 25px;
         line-height: 1.3;
+    }
+    .projects:first-child{
+width: 100%;
+    }
+
+    .projects:not(:first-child) {
+        flex: 1;
     }
     .project img {
         width: 100%;
